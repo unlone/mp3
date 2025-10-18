@@ -9,4 +9,5 @@ services:
       - key: NODE_ENV
         value: production
       - key: MONGODB_URI
-        generateValue: true
+
+        value: mongodb+srv://chensy010227_db_user:f9Ijb1wEw5eZwtZT@cluster0.4hturbd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
